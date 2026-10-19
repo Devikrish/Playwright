@@ -1,0 +1,8 @@
+// Nested Ternary
+// Multiple Conditions
+// age = 26
+// age > 18 -> Go Goa, age > 25 -> Drink
+
+let age = 26;
+let is_allowed = (age >18)? (age>25 ? "Go Goa and Drink" : "No Drink only Goa"): "No Goa";
+console.log(is_allowed);
